@@ -1,0 +1,19 @@
+{
+  "name": "rx-draw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browserify ./app/app.js -t babelify --outfile bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "rx": "^2.5.2"
+  },
+  "devDependencies": {
+    "babel": "^5.4.2",
+    "babelify": "^6.1.0"
+  }
+}
